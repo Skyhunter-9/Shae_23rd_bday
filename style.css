@@ -38,7 +38,7 @@ html{
 
 .card {
     flex: 0 0 auto;
-    width: 200px;
+    width: 300px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ html{
 .carousel_2 {
   position: fixed;
   top: 200px;
-  left: 0;
+  left: 0px;
   width: 100vw;
   height: auto;
   z-index: -1; /* Confidently pushes the whole carousel unit behind your text content */
@@ -87,10 +87,10 @@ html{
 
 @keyframes scroll_2 {
     0% {
-        transform: translateX(0);
+        transform: translateX(-50%);
     }
     100% {
-        transform: translateX(50%);
+        transform: translateX(0%);
     }
 }
 
@@ -149,10 +149,10 @@ html{
 
 @keyframes scroll_4 {
     0% {
-        transform: translateX(0);
+        transform: translateX(-50%);
     }
     100% {
-        transform: translateX(60%);
+        transform: translateX(0%);
     }
 }
 /* Background Ends Here */
@@ -310,7 +310,7 @@ html{
     background-color: var(--color-text-pink);
     border-radius: 50px;
     margin-top: 20px;
-    font-family: "Sriracha", cursive;
+    font-family: "Serif", cursive;
     
 }
 .date__of__birth{
