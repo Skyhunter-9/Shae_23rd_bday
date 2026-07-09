@@ -6,3 +6,5 @@ That is where file is located it gives permission i think
 
 Now sending in zip will be fine
 when opening on other mac right-click launch.command and hit open then confirm
+
+okay so chmod +x gives file permission to run as a program
