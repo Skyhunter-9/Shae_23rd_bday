@@ -40,7 +40,6 @@ html{
     flex: 0 0 auto;
     width: 200px;
     height: 150px;
-    background-color: rgb(60, 1, 60);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,15 +51,108 @@ html{
 .carousel-track_1 {
     display: flex;
     width: max-content;
-    animation: scroll 10s linear infinite;
+    animation: scroll_1 10s linear infinite;
 }
 
-@keyframes scroll {
+@keyframes scroll_1 {
     0% {
         transform: translateX(0);
     }
     100% {
         transform: translateX(-50%);
+    }
+}
+
+.carousel_2 {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1; /* Confidently pushes the whole carousel unit behind your text content */
+}
+
+.carousel-container_2{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 0px;
+}
+
+.carousel-track_2 {
+    display: flex;
+    width: max-content;
+    animation: scroll_2 10s linear infinite;
+}
+
+@keyframes scroll_2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+.carousel_3 {
+  position: fixed;
+  top: 400px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1; /* Confidently pushes the whole carousel unit behind your text content */
+}
+
+.carousel-container_3{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 0px;
+}
+
+.carousel-track_3 {
+    display: flex;
+    width: max-content;
+    animation: scroll_3 10s linear infinite;
+}
+
+@keyframes scroll_3 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20%);
+    }
+}
+
+.carousel_4 {
+  position: fixed;
+  top: 600px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1; /* Confidently pushes the whole carousel unit behind your text content */
+}
+
+.carousel-container_4{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 0px;
+}
+
+.carousel-track_4 {
+    display: flex;
+    width: max-content;
+    animation: scroll_4 10s linear infinite;
+}
+
+@keyframes scroll_4 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(60%);
     }
 }
 /* Background Ends Here */
