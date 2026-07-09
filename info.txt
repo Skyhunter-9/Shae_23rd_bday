@@ -1,0 +1,8 @@
+to be able to use launch.command
+
+open terminal on mac and paste:
+chmod +x "/Users/skyhunter9/Coding/Shae 23rd Bday/Launch.command"
+That is where file is located it gives permission i think
+
+Now sending in zip will be fine
+when opening on other mac right-click launch.command and hit open then confirm
